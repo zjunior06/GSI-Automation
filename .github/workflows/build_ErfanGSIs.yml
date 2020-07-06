@@ -14,11 +14,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://otafsg1.h2os.com/patch/amazone2/GLO/OnePlus7Oxygen/OnePlus7Oxygen_13.W.37_GLO_037_2006051457/OnePlus7Oxygen_13.W.37_OTA_037_all_2006051457_8a8e443f3247.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: OxygenOS
+  ROM_URL: https://dl.google.com/dl/android/aosp/coral-qq3a.200705.002-factory-63bc583a.zip  
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel
   TZ: America/Sao_Paulo
-  MIR: trs
+  MIR: bit
 jobs:
   build:
     runs-on: ubuntu-latest
